@@ -15,7 +15,7 @@ ref_pac = file("${params.fasta}.64.pac")
 ref_sa = file("${params.fasta}.64.sa")
 ref_fasta_fai = file("${params.fasta}.fai")
 ref_dict = file(params.fasta.replace(".fasta", ".dict"))
-
+println "$ref_fasta"
 //================================================================================
 // Include modules and (soft) override module-level parameters
 //================================================================================
